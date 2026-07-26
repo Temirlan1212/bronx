@@ -24,7 +24,6 @@ export function HeroSection() {
     <section className="relative bg-black md:pt-[6rem]">
       {/* Зелёное свечение сверху — видно только на десктопе, где есть отступ до карточки */}
       <div className="pointer-events-none absolute inset-x-0 top-0 hidden h-40 bg-[radial-gradient(ellipse_at_top,_rgba(166,206,57,0.25),_transparent_70%)] md:block" />
-
       {/*
         На мобильных — фото на всю ширину экрана, без скруглений и отступов
         (как в оригинале britvabarber.ru).
@@ -76,7 +75,6 @@ export function HeroSection() {
           </div>
         </div>
       </div>
-
       {/* Блок под фото — класс z-[1] изменен на z-10 для предотвращения перекрытия кликов */}
       <div className="container mt-[-100px] relative z-10 flex flex-col items-center gap-6 md:mt-10 md:flex-row md:items-center md:justify-between">
         <div className="flex w-full flex-col items-center gap-4 md:w-auto md:flex-row">
