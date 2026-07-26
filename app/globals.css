@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 0%;
+  --foreground: 0 0% 100%;
+  --border: 0 0% 100% / 0.1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-black text-white antialiased;
+  font-family: var(--font-sans), Arial, sans-serif;
+}
+
+/* Секции на оригинале разделены сплошным чёрным фоном без резких границ,
+   акцентный зелёный (#A6CE39) используется точечно: кнопки, ссылки, метки. */
+
+.section-title {
+  @apply font-condensed text-[36px] md:text-[60px] font-black uppercase leading-[0.95] tracking-tight text-white;
+}
+
+.eyebrow {
+  @apply text-xs md:text-sm uppercase tracking-[0.2em] text-primary font-medium;
+}
