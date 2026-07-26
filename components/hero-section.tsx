@@ -39,7 +39,7 @@ export function HeroSection() {
           {/* Фоновое изображение барбершопа */}
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: "url('/images/hero-background.png')" }}
+            style={{ backgroundImage: "url('/images/hero-background-4.png')" }}
           />
           {/* Затемнение для читаемости текста */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
@@ -72,7 +72,7 @@ export function HeroSection() {
       </div>
 
       {/* Блок под фото — кнопка на всю ширину на мобиле, соцсети снизу по центру */}
-      <div className="container mt-8 flex flex-col items-center gap-6 md:mt-10 md:flex-row md:items-center md:justify-between">
+      <div className="container flex flex-col items-center gap-6 md:mt-10 md:flex-row md:items-center md:justify-between">
         <div className="flex w-full flex-col items-center gap-4 md:w-auto md:flex-row">
           <BookingDrawer
             trigger={
