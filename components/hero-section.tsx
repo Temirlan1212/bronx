@@ -72,7 +72,7 @@ export function HeroSection() {
       </div>
 
       {/* Блок под фото — кнопка на всю ширину на мобиле, соцсети снизу по центру */}
-      <div className="container flex flex-col items-center gap-6 md:mt-10 md:flex-row md:items-center md:justify-between">
+      <div className="container mt-[-100px] relative z-[1] flex flex-col items-center gap-6 md:mt-10 md:flex-row md:items-center md:justify-between">
         <div className="flex w-full flex-col items-center gap-4 md:w-auto md:flex-row">
           <BookingDrawer
             trigger={
