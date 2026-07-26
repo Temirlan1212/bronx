@@ -21,7 +21,7 @@ const oswald = Oswald({
 
 export const metadata: Metadata = {
   title: `${BARBERSHOP_NAME} — ${BARBERSHOP_TAGLINE} | Стрижём & бреем`,
-  description: `${BARBERSHOP_NAME} — барбершоп в Бишкеке. Мужские стрижки, оформление бороды, королевское бритьё. Улица Фрунзе, 41, с. Романовка.`,
+  description: `${BARBERSHOP_NAME} — барбершоп в Чуйской области. Мужские стрижки, оформление бороды, королевское бритьё. Улица Фрунзе, 41, с. Романовка.`,
 };
 
 export default function RootLayout({

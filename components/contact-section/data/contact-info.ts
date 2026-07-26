@@ -8,7 +8,7 @@ import { PHONE_NUMBER, WORKING_HOURS } from "@/lib/consts";
  */
 export const CONTACT_INFO: ContactInfo = {
   address: "ул. Фрунзе, 41",
-  city: "с. Романовка, Бишкек",
+  city: "с. Романовка, Чуй",
   phone: PHONE_NUMBER,
   phoneHref: PHONE_NUMBER,
   workingHours: WORKING_HOURS,
