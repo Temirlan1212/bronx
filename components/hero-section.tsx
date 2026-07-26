@@ -21,7 +21,7 @@ const BookingDrawer = dynamic(
 
 export function HeroSection() {
   return (
-    <section className="relative bg-black pb-10 md:pb-16 md:pt-[6rem]">
+    <section className="relative bg-black md:pt-[6rem]">
       {/* Зелёное свечение сверху — видно только на десктопе, где есть отступ до карточки */}
       <div className="pointer-events-none absolute inset-x-0 top-0 hidden h-40 bg-[radial-gradient(ellipse_at_top,_rgba(166,206,57,0.25),_transparent_70%)] md:block" />
 

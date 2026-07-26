@@ -10,7 +10,7 @@ import { generateWhatsAppLink } from "@/lib/utils";
 export function ContactSection() {
   return (
     <section id="contacts" className="bg-black">
-      <div className="container grid gap-10 py-16 md:grid-cols-2 md:items-center md:py-24">
+      <div className="container grid gap-10 md:grid-cols-2 md:items-center">
         <div>
           <p className="eyebrow">Контакты</p>
           <h2 className="section-title mt-2">Как нас найти</h2>

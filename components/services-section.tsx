@@ -85,7 +85,7 @@ export function ServicesSection() {
   };
 
   return (
-    <section id="services" className="bg-black py-24">
+    <section id="services" className="bg-black">
       <div className="container flex flex-col gap-12">
         <div className="eyebrow">Что мы делаем</div>
         <h2 className="section-title">Услуги</h2>

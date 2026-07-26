@@ -3,7 +3,7 @@ import { ABOUT_HIGHLIGHTS } from "../data/highlights";
 export function AboutSection() {
   return (
     <section id="about" className="">
-      <div className="container grid gap-10 py-16 md:grid-cols-2 md:py-24">
+      <div className="container grid gap-10 md:grid-cols-2">
         <div>
           <p className="eyebrow">О барбершопе</p>
           <h2 className="section-title mt-2">О нас</h2>

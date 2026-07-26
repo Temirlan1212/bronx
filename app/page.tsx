@@ -12,13 +12,16 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black">
       <SiteHeader />
-      <HeroSection />
-      <ScheduleSection />
-      <ServicesSection />
-      <StocksSection />
-      {/* <CtaSection /> */}
-      <AboutSection />
-      <ContactSection />
+
+      <div className="flex flex-col gap-[50px] md:gap-[100px]">
+        <HeroSection />
+        <ScheduleSection />
+        <ServicesSection />
+        <StocksSection />
+        {/* <CtaSection /> */}
+        <AboutSection />
+        <ContactSection />
+      </div>
       <SiteFooter />
     </main>
   );
