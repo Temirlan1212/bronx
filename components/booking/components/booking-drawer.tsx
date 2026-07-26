@@ -5,9 +5,7 @@ import { Check, Scissors } from "lucide-react";
 
 import {
   Drawer,
-  DrawerClose,
   DrawerContent,
-  DrawerDescription,
   DrawerFooter,
   DrawerHeader,
   DrawerTitle,
@@ -132,10 +130,6 @@ export function BookingDrawer({ trigger, onSubmit }: BookingDrawerProps) {
                 Записаться
               </a>
             </Button>
-
-            <DrawerClose>
-              <Button variant="ghost">Отмена</Button>
-            </DrawerClose>
           </DrawerFooter>
         </>
       </DrawerContent>
