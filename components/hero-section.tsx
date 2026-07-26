@@ -50,7 +50,13 @@ export function HeroSection() {
               <p className="mb-2 text-xs uppercase tracking-[0.3em] text-white/70 md:text-sm">
                 {BARBERSHOP_TAGLINE}
               </p>
-              <h1 className="font-condensed text-5xl font-black uppercase leading-[0.95] text-white md:text-7xl">
+              <h1
+                className="font-condensed text-5xl font-black uppercase leading-[0.95] text-white md:text-7xl"
+                style={{
+                  textShadow:
+                    "-1px -1px 0 #a6ce39, 1px -1px 0 #a6ce39, -1px 1px 0 #a6ce39, 1px 1px 0 #a6ce39",
+                }}
+              >
                 {BARBERSHOP_NAME}
               </h1>
               <p className="mt-3 font-condensed text-xl font-bold uppercase text-white md:text-2xl">
@@ -71,8 +77,8 @@ export function HeroSection() {
         </div>
       </div>
 
-      {/* Блок под фото — кнопка на всю ширину на мобиле, соцсети снизу по центру */}
-      <div className="container mt-[-100px] relative z-[1] flex flex-col items-center gap-6 md:mt-10 md:flex-row md:items-center md:justify-between">
+      {/* Блок под фото — класс z-[1] изменен на z-10 для предотвращения перекрытия кликов */}
+      <div className="container mt-[-100px] relative z-10 flex flex-col items-center gap-6 md:mt-10 md:flex-row md:items-center md:justify-between">
         <div className="flex w-full flex-col items-center gap-4 md:w-auto md:flex-row">
           <BookingDrawer
             trigger={
@@ -83,9 +89,7 @@ export function HeroSection() {
           />
 
           <Button variant="outline" size="lg" className="w-full md:w-auto">
-            <a href="#contacts" key="#contacts">
-              Мы находимся{" "}
-            </a>
+            <a href="#contacts">Мы находимся</a>
           </Button>
         </div>
 

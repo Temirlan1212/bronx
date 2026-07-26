@@ -27,6 +27,10 @@ export function SiteHeader() {
         <a
           href="/"
           className="text-2xl font-black uppercase tracking-tight text-white"
+          style={{
+            textShadow:
+              "-1px -1px 0 #a6ce39, 1px -1px 0 #a6ce39, -1px 1px 0 #a6ce39, 1px 1px 0 #a6ce39",
+          }}
         >
           {BARBERSHOP_NAME}
         </a>
